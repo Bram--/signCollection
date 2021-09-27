@@ -1,0 +1,153 @@
+Wood dark: #5A3F1C
+Wood light: #A4622E
+Dark: #5E5956
+Light: #CECECE
+White: #FFFFFF
+Black: #000000
+Off-White: #ECD3A1
+Green: #068317
+
+
+Coaster - Abstract		https://openclipart.org/detail/183445/theme-park
+Coaster - Heart			https://openclipart.org/detail/308692/roller-coaster-heart-type-ii
+Coaster - Silhoutte		https://openclipart.org/detail/316262/roller-coaster-silhouette-by-mwewering
+Coaster - Tracks		https://openclipart.org/detail/6946/roller-coaster-tracks
+Coaster - Wave			https://openclipart.org/detail/308686/roller-coaster-wave
+Coaster - Wooden		https://openclipart.org/detail/657/themepark
+Drinks - Bubble tea		https://openclipart.org/detail/312584/bubble-tea
+Drinks - Coffee			https://openclipart.org/detail/196239/coffee-sign
+Drinks - Coffee simple		https://openclipart.org/detail/16977/coffee
+Drinks - Energy cow		https://openclipart.org/detail/175655/simple-cartoon-energy-drink-can
+Drinks - Orange juice		https://openclipart.org/detail/224375/orangejuiceglitch
+Drinks - Orange juice alt.	https://openclipart.org/detail/294552/orange-juice
+Drinks - Paper cup kawaii	https://openclipart.org/detail/314482/kawaii-paper-coffee-or-tea-cup
+Drinks - Soda can		https://openclipart.org/detail/38557/soda-can-opened
+Drinks - Soda can alt.		https://openclipart.org/detail/9150/fast-food-drinks-soda-can
+Drinks - Tea mug		https://openclipart.org/detail/25974/green-mug-of-tea
+First aid - Defibrilator	https://openclipart.org/detail/282289/defibrilator
+First aid - First aid heart	https://openclipart.org/detail/277350/first-aid-heart
+First aid - First aid kit	https://openclipart.org/detail/279340/first-aid-kit
+First aid - Red cross		https://openclipart.org/detail/234839/red-cross-first-aid-icon-optimized
+Food - Cake piece		https://openclipart.org/detail/305917/piece-of-cake-4
+Food - Cake rainbow		https://openclipart.org/detail/308218/birthday-cake
+Food - Candy floss		https://openclipart.org/detail/17940/cotton-candy
+Food - Chinese Baozi		https://openclipart.org/detail/301324/chinesestyle-steamed-bun
+Food - Chinese takeaway		https://openclipart.org/detail/306198/take-away-chinese
+Food - Chinese takeaway alt.	https://openclipart.org/detail/292989/chinese-kungpow-noodles
+Food - Cookie 			https://openclipart.org/detail/199331/primary-cookie
+Food - Cookie kawaii		https://openclipart.org/detail/327116/biscuit-head
+Food - Corndog			https://openclipart.org/detail/289371/isolated-corn-dog
+Food - Donut pink		https://openclipart.org/detail/248894/pink-donut
+Food - Donut with coffee	https://openclipart.org/detail/301658/coffee-and-donut-yeah-animation
+Food - Fairy floss		https://openclipart.org/detail/173480/fairy-floss-sign
+Food - Fastfood meal		https://openclipart.org/detail/150523/fast-food-menu
+Food - Fastfood sandwich	https://openclipart.org/detail/150775/sandwich-menu
+Food - French fries		https://openclipart.org/detail/314329/french-fries-2
+Food - French fries kawaii	https://openclipart.org/detail/270290/kawaii-fries-colour
+Food - Hamburger		https://openclipart.org/detail/280262/hamburger-burger-remix-with-colors
+Food - Hamburger alt.		https://openclipart.org/detail/325666/hamburger-6
+Food - Hamburger kawaii		https://openclipart.org/detail/303139/kawaii-hamburger
+Food - Hotdog hotdawg		https://openclipart.org/detail/264433/hotdwag-remixed
+Food - Hotdog mustard		https://openclipart.org/detail/303785/hot-dog-with-sausage-bun-and-mustard
+Food - Icecream			https://openclipart.org/detail/26317/eiseiswaffelice
+Food - Icecream kawaii		https://openclipart.org/detail/297907/cute-anthropomorphic-ice-cream-cone
+Food - Icecream twisted		https://openclipart.org/detail/133765/twisted-nut-ice
+Food - Lollipop			https://openclipart.org/detail/214006/lollipop
+Food - Pizza			https://openclipart.org/detail/320979/pizza
+Food - Pizza slice		https://openclipart.org/detail/278690/pizza-slice
+Food - Pizza slice alt.		https://openclipart.org/detail/183841/pizza-slice-in-tango-colors
+Food - Popcorn			https://openclipart.org/detail/295665/popcorn
+Food - Popcorn kawaii		https://openclipart.org/detail/296240/popcorn-time-logo
+Food - Pretzel			https://openclipart.org/detail/188586/bavarian-pretzel
+Food - Pretzel alt		https://openclipart.org/detail/22714/pretzel-icon
+Food - Sandwich kawaii		https://openclipart.org/detail/321519/kawaii-sandwich
+Food - Sandwich kawaii head	https://openclipart.org/detail/325852/sandwich-head
+Food - Sandwich sub		https://openclipart.org/detail/48115/submarine-sandwich-01
+Food - Turkey			https://openclipart.org/detail/266400/turkey
+Food - Turkey alt.		https://openclipart.org/detail/266220/cartoon-turkey
+Hazard - Bio hazard		https://openclipart.org/detail/14430/biological-hazard-warning-sign
+Hazard - Cold warning	 	https://openclipart.org/detail/14465/cold-warning-sign
+Hazard - Conformity 		https://openclipart.org/detail/319116/conformity-hazard
+Hazard - Crush hand		https://openclipart.org/detail/14462/crush-hazard-warning-sign
+Hazard - Crushing risk		https://openclipart.org/detail/14433/crushing-risk-warning-sign
+Hazard - Dinosaur 		https://openclipart.org/detail/273112/dinosaur-hazard
+Hazard - Electricity		https://openclipart.org/detail/14427/signs-hazard-warning-electricity
+Hazard - Explosion		https://openclipart.org/detail/96985/hazard-warning-sign-explosion
+Hazard - Explosive material	https://openclipart.org/detail/14422/explosive-material-warning-sign
+Hazard - Fire			https://openclipart.org/detail/14421/fire-hazard-warning-sign
+Hazard - Forklift		https://openclipart.org/detail/14426/signs-hazard-warning-lift-trucks
+Hazard - Fragile		https://openclipart.org/detail/14456/fragile-warning-sign
+Hazard - Generic		https://openclipart.org/detail/14428/signs-hazard-warning-generic
+Hazard - High voltage		https://openclipart.org/detail/14460/high-voltage-hazard-warning-sign
+Hazard - High Voltage alt.	https://openclipart.org/detail/14450/danger-high-voltage-warning-sign
+Hazard - Malware		https://openclipart.org/detail/28414/malware-hazard-symbol-red
+Hazard - Radioactive		https://openclipart.org/detail/14469/signs-hazard-warning
+Hazard - Slippery		https://openclipart.org/detail/14452/wet-and-slippery-warning-sign
+Hazard - Suffocation		https://openclipart.org/detail/14457/suffocation-asphyxiation-warning-sign
+Hazard - Toxic			https://openclipart.org/detail/14423/toxicpoison-warning-sign
+Hazard - Trip hazard		https://openclipart.org/detail/14453/trip-hazard-warning-sign
+Hazard - Wireless		https://openclipart.org/detail/14468/signs-hazard-warning
+Misc - Cinema			https://openclipart.org/detail/81091/cinema-icon
+Misc - Cinema Reel		https://openclipart.org/detail/29273/movie-reel
+Misc - Cinema ticket		https://openclipart.org/detail/309900/movie-ticket
+Misc - Ghost 			https://openclipart.org/detail/163945/ghost
+Misc - Ghost alt.		https://openclipart.org/detail/17847/cartoon-ghost
+Misc - Rocket kawaii 		https://openclipart.org/detail/271116/kawaii-rocket
+Misc - Theme park		https://openclipart.org/detail/216570/theme-park
+Misc - Theme park alt.		https://openclipart.org/detail/656/kids-at-theme-park
+Misc - Theme park alt. 2	https://openclipart.org/detail/288088/amusement-park-banner
+Misc - Train			https://openclipart.org/detail/25364/aiga-rail-transportation
+Misc - Train alt.		https://openclipart.org/detail/25362/aiga-rail-transportation-bg
+Misc - Treasure map		https://openclipart.org/detail/299283/x-marks-the-spot
+Misc - Treasure map alt.	https://openclipart.org/detail/242959/old-scroll
+Misc - Wifi			https://openclipart.org/detail/235355/wide-open-wifi
+Misc - Wifi alt.		https://openclipart.org/detail/269159/wifi
+Misc - Wifi inside		https://openclipart.org/detail/195841/logo-free-wifi-inside-for-a-cafe
+Money - Banknote coins		https://openclipart.org/detail/2889/money-banknotes-and-coin
+Money - Banknote stack		https://openclipart.org/detail/222588/money
+Money - Bitcoin cash		https://openclipart.org/detail/294884/bitcoin-cash-icon
+Money - Wallet 			https://openclipart.org/detail/306469/wallet-with-cash
+Roadsign - Drawbridge		https://openclipart.org/detail/26958/roadsign-drawbridge
+Roadsign - Falling rocks	https://openclipart.org/detail/1108/falling-rocks-from-the-lhs-roadsign
+Roadsign - Fence or gate	https://openclipart.org/detail/1127/fencegate-roadsign
+Roadsign - Giveway		https://openclipart.org/detail/26962/roadsign-give-way
+Roadsign - Hill down 10p	https://openclipart.org/detail/1110/10-downward-gradient-roadsign
+Roadsign - Hill up 10p		https://openclipart.org/detail/1111/10-upward-gradient-roadsign
+Roadsign - Information bubble	https://openclipart.org/detail/280959/information-icon
+Roadsign - Information circle	https://openclipart.org/detail/307310/info-icon
+Roadsign - No entry		https://openclipart.org/detail/28068/roadsign-no-entry
+Roadsign - No entry alt.	https://openclipart.org/detail/1150/no-entry
+Roadsign - No entry alt. 2	https://openclipart.org/detail/1151/no-entry-sign-with-a-man
+Roadsign - Speed limit 35	https://openclipart.org/detail/7880/ca-speed-limit-35-roadsign
+Roadsign - Speed limit 65	https://openclipart.org/detail/7883/ca-speed-limit-65-roadsign
+Roadsign - Speed limit 70	https://openclipart.org/detail/9053/ca-speed-limit-70-roadsign
+Roadsign - Stop			https://openclipart.org/detail/167093/stop-sign
+Roadsign - Traffic lights	https://openclipart.org/detail/1126/traffic-lights-ahead-sign
+Roadsign - Train		https://openclipart.org/detail/1128/train-roadsign
+Roadsign - Train alt.		https://openclipart.org/detail/30169/roadsign-train
+Roadsign - Tunnel		https://openclipart.org/detail/30187/roadsign-tunnel
+Souvenir - Balloons 		https://openclipart.org/detail/300653/balloons-symbol
+Souvenir - Baloons alt.		https://openclipart.org/detail/226528/colorful-balloons
+Souvenir - Baseball cap		https://openclipart.org/detail/8302/baseball-cap
+Souvenir - Baseball cap alt	https://openclipart.org/detail/283211/boys-with-caps-on
+Souvenir - Frog with umbrella 	https://openclipart.org/detail/312418/frog-with-umbrella
+Souvenir - Girl with umbrella	https://openclipart.org/detail/325639/girl-with-umbrella-5
+Souvenir - Jester hat		https://openclipart.org/detail/216390/jesters-hat-icon
+Souvenir - Sombrero		https://openclipart.org/detail/188960/sombrero
+Souvenir - Sunglasses		https://openclipart.org/detail/171225/sunglasses
+Souvenir - Sunglasses sun	https://openclipart.org/detail/147721/cool-happy-sun
+Souvenir - Teddybear sad	https://openclipart.org/detail/169941/simple-teddy-bear
+Souvenir - Tshirt black		https://openclipart.org/detail/118627/black-tshirt
+Souvenir - Tshirt blue		https://openclipart.org/detail/118609/azure-tshirt
+Souvenir - Tshirt green		https://openclipart.org/detail/118633/green-2-tshirt
+Souvenir - Tshirt pink		https://openclipart.org/detail/118639/pink-tshirt
+Souvenir - Tshirt red		https://openclipart.org/detail/118585/red-tshirt
+Souvenir - Tshirt red heart	https://openclipart.org/detail/77629/red-tshirt
+Souvenir - Umbrella		https://openclipart.org/detail/22442/umbrella
+Toilet - Instructions		https://openclipart.org/detail/177548/toilet-instructions-for-noobs
+Toilet - Men			https://openclipart.org/detail/70201/mens-toilet
+Toilet - Men alt.		https://openclipart.org/detail/25148/aiga-toilet-men-bg
+Toilet - Uni			https://openclipart.org/detail/327495/wc-signs
+Toilet - Uni alt.		https://openclipart.org/detail/65761/toilet
+Toilet - Women			https://openclipart.org/detail/70207/womens-toilet
+Toilet - Women alt.		https://openclipart.org/detail/25152/aiga-toilet-women-bg
