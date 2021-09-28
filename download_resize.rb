@@ -104,12 +104,12 @@ class ImageConverter
       height = if ratio > 1.2 then 1000 else 2000 end
 
       # Crop to 1:1, 2:1 or 1:2
-      @line_writer.write("Converting #{destination}/#{new_file} ") do
+      @line_writer.write("Converting #{new_file} ") do
         `rsvg-convert -w #{width} -h #{height} -a \"#{svg}\" > \"#{png}\"`
       end
 
       @color_pairs.each do |name, hex|
-        @line_writer.write("Colorizing #{destination}/#{new_file} #{name}") do
+        @line_writer.write("Colorizing #{new_file} #{name}") do
           color_destination = "#{FOLDER_OUTPUT}/#{name}"
           FileUtils.mkdir_p color_destination
           `convert "#{png}"\
@@ -138,7 +138,7 @@ download_folder = downloader.download!
 
 # Reencode and crop images
 converter = ImageConverter.new(line_writer, Dir[ "#{download_folder}/*.svg" ], color_pairs)
-converter.pad_and_colorize
+converter.pad_and_colorize!
 
 puts ""
 puts "All Done! #{FOLDER_OUTPUT}"
