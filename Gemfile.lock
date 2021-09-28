@@ -7,6 +7,7 @@ GEM
       unf (>= 0.0.5, < 1.0.0)
     down (5.2.4)
       addressable (~> 2.8)
+    dry-cli (0.7.0)
     ffi (1.15.4)
     ffi-compiler (1.0.1)
       ffi (>= 1.0.0)
@@ -33,6 +34,7 @@ PLATFORMS
 
 DEPENDENCIES
   down (~> 5.0)
+  dry-cli (~> 0.7)
   http (~> 5.0)
 
 BUNDLED WITH
