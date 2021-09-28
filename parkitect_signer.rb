@@ -115,9 +115,9 @@ class ImageConverter
           color_destination = "#{FOLDER_OUTPUT}/#{name}"
           FileUtils.mkdir_p color_destination
           `convert "#{png}"\
-             -fuzz 25% -background "#{hex}"\
+            -fuzz 50% -background "#{hex}"\
             -gravity center -extent #{width}x#{height}\
-            "#{color_destination}/#{new_file} #{name}.png"`
+            -quality 75 "#{color_destination}/#{new_file} #{name}.jpg"`
         end
       end
     end
