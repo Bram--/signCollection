@@ -3,7 +3,6 @@ Wood light: #A4622E
 Dark: #5E5956
 Light: #CECECE
 White: #FFFFFF
-Black: #000000
 Off-White: #ECD3A1
 Green: #068317
 

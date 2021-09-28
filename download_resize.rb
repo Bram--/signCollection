@@ -3,9 +3,11 @@
 require 'fileutils'
 require 'down/http'
 
-OUT_FOLDER = "out"
-DOWNLOAD_FOLDER = "svgs"
 DOWNLOAD_LINK_FORMAT = "https://openclipart.org/download/%d"
+
+FOLDER_DOWNLOADS = "tmp/svgs"
+FOLDER_PNGS = "tmp/pngs"
+FOLDER_OUTPUT = "output"
 
 class LineWriter
   def initialize
@@ -60,11 +62,10 @@ class ImageDownloader
   end
 
   def download!
-    destination = "#{OUT_FOLDER}/#{DOWNLOAD_FOLDER}"
-    FileUtils.mkdir_p destination
+    FileUtils.mkdir_p FOLDER_DOWNLOADS
 
     @file_name_download_url_pairs.each do |name, url|
-      file_name = "#{destination}/#{name}.svg"
+      file_name = "#{FOLDER_DOWNLOADS}/#{name}.svg"
       unless File.exists?(file_name)
         @line_writer.write("Downloading #{file_name}") do
           Down::Http.download(url, destination: file_name)
@@ -72,7 +73,7 @@ class ImageDownloader
       end
     end
 
-    destination
+    FOLDER_DOWNLOADS
   end
 
   def self.make_folder(color_name)
@@ -80,36 +81,41 @@ class ImageDownloader
   end
 end
 
-# Needs ImageMagick and librsvg2-bin
-class Colorizer
-  def initialize(line_writer, color_pairs, svgs)
+
+# Needs ImageMagick
+class ImageConverter
+  def initialize(line_writer, svgs, color_pairs)
     @line_writer = line_writer
-    @color_pairs = color_pairs
     @svgs = svgs
+    @color_pairs = color_pairs
   end
 
-  def colorize!
-    @color_pairs.each do |name, hex|
-      destination = "#{OUT_FOLDER}/#{name}"
-      FileUtils.mkdir_p destination
+  def pad_and_colorize!
+    FileUtils.mkdir_p FOLDER_PNGS
 
-      @svgs.each do |svg|
-        new_file = File.basename(svg, ".svg")
-        @line_writer.write("Colorizing #{destination}/#{new_file}") do
+    @svgs.each do |svg|
+      new_file = File.basename(svg, ".svg")
+      ratio = `(identify -format "%[fx:w/h]" "#{svg}") 2>/dev/null`.to_f
+      epsilon = 0.1
 
-          # Convert svg to downsized PNG.
-          `rsvg-convert -w 2000 \"#{svg}\" > \"#{destination}/#{new_file}.png\"`
+      # Convert svg to downsized PNG.
+      png = "#{FOLDER_PNGS}/#{new_file}.png"
+      width  = if ratio.between?(epsilon, 0.9) then 1000 else 2000 end
+      height = if ratio > 1.2 then 1000 else 2000 end
 
-          # Fill transparent background with specified color.
-          `convert "#{destination}/#{new_file}.png"\
-         -fuzz 25%\
-         -fill none\
-         -background "#{hex}"\
-         -flatten\
-         "#{destination}/#{new_file} - #{name}.jpg"`
+      # Crop to 1:1, 2:1 or 1:2
+      @line_writer.write("Converting #{destination}/#{new_file} ") do
+        `rsvg-convert -w #{width} -h #{height} -a \"#{svg}\" > \"#{png}\"`
+      end
 
-          # Remove PNG
-          `rm "#{destination}/#{new_file}.png"`
+      @color_pairs.each do |name, hex|
+        @line_writer.write("Colorizing #{destination}/#{new_file} #{name}") do
+          color_destination = "#{FOLDER_OUTPUT}/#{name}"
+          FileUtils.mkdir_p color_destination
+          `convert "#{png}"\
+                         -fuzz 25 -background "#{hex}"\
+                         -gravity center -extent #{width}x#{height}\
+                         "#{color_destination}/#{new_file}.png"`
         end
       end
     end
@@ -130,7 +136,10 @@ line_writer = LineWriter.new
 downloader = ImageDownloader.new(line_writer, download_pairs)
 download_folder = downloader.download!
 
-# Finally use all SVGs and colorize them according to the color pairs
-colorizer = Colorizer.new(line_writer, color_pairs, Dir[ "#{download_folder}/*.svg" ])
-colorizer.colorize!
+# Reencode and crop images
+converter = ImageConverter.new(line_writer, Dir[ "#{download_folder}/*.svg" ], color_pairs)
+converter.pad_and_colorize
+
+puts ""
+puts "All Done! #{FOLDER_OUTPUT}"
 
