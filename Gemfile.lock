@@ -25,6 +25,7 @@ GEM
       rake (~> 13.0)
     public_suffix (4.0.6)
     rake (13.0.6)
+    rubyzip (2.3.2)
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.8)
@@ -36,6 +37,7 @@ DEPENDENCIES
   down (~> 5.0)
   dry-cli (~> 0.7)
   http (~> 5.0)
+  rubyzip (~> 2.3)
 
 BUNDLED WITH
    2.2.3

@@ -1,10 +1,10 @@
 Wood dark: #5A3F1C
 Wood light: #A4622E
-Dark: #5E5956
-Light: #CECECE
+Grey Dark: #5E5956
+Grey Light: #CECECE
 White: #FFFFFF
-Off-White: #ECD3A1
-Green: #068317
+Yellowish: #ECD3A1
+Grass: #068317
 
 
 Coaster - Abstract		https://openclipart.org/detail/183445/theme-park
