@@ -1,0 +1,94 @@
+Parkitect Sign creator
+
+Reads signs.txt and creates a set of signs based on the list of OpenClipart
+links in that file. It will also parse the list of colours at the top of the
+file to create colour variations for each image.
+
+
+*** Commands
+
+````
+Commands:
+  ./signs all               # Runs Colorize and Publish
+  ./signs colorize          # Downloads all files if not already present and colorizes them
+  ./signs download          # Redownloads all files
+  ./signs publish           # Creates a montage for all images and zips them
+
+----
+Command:
+  ./signs all                       # aliases: cp, pc, a
+
+Description:
+  Runs Colorize and Publish
+
+Options:
+  --[no-]montage                    # Wether to create a montage for each color or not, default: true
+  --input=VALUE                     # Input file containing colors and OpenClipart links, default: "signs.txt"
+  --[no-]remove-temp                # Remove temp files after zipping them, default: true
+  --help, -h                        # Print this help
+
+Examples:
+  ./signs all --montage --input=signs.txt --no-remove-temp
+
+
+----
+Command:
+  ./signs download                 # aliases: d, -d
+
+Description:
+  Redownloads all files
+
+Options:
+  --input=VALUE                     # Input file containing colors and OpenClipart links, default: "signs.txt"
+  --help, -h                        # Print this help
+
+
+----
+Command:
+  ./signs colorize                  # aliases: c, -c
+
+Description:
+  Downloads all files if not already present and colorizes them
+
+Options:
+  --input=VALUE                     # Input file containing colors and OpenClipart links, default: "signs.txt"
+  --help, -h                        # Print this help
+
+Examples:
+  ./signs colorize --input=signs.txt
+
+
+----
+Command:
+  ./signs publish                  # aliases: p, -p
+
+Description:
+  Creates a montage for all images and zips them
+
+Options:
+  --[no-]montage                    # Wether to create a montage for each color or not, default: true
+  --input=VALUE                     # Input file containing colors and OpenClipart links, default: "signs.txt"
+  --[no-]remove-temp                # Remove temp files after zipping them, default: false
+  --help, -h                        # Print this help
+
+Examples:
+  ./signs publish --montage --input=signs.txt --no-remove-temp
+````
+
+
+*** Signs.txt example.
+
+The below example will download the SVG listed on https://openclipart.org/detail/183445/theme-park
+and create two zip files. One containing the image with a white background the
+other one with the image with a black background. Adding more openclipart links
+will add more files into each zip.
+
+
+Example (Note the tab characters after image name)
+```
+White: #FFFFFF
+Black: #FFFFFF
+
+Image name		https://openclipart.org/detail/183445/theme-park$
+```
+
